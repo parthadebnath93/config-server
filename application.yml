@@ -9,3 +9,7 @@ eureka:
 ---
 instance:
     hostname: localhost
+management:
+  tracing:
+    smapling:
+      probability: 1.0
